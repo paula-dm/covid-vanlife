@@ -30,7 +30,7 @@ function updateDays (){
 
 function getColor() {
    
-    let colors = ['yellow','hotpink','chartreuse', 'blue', 'orange', 'red',];
+    let colors = ['yellow','hotpink','chartreuse', 'lightBlue', 'orange', 'red',];
     return colors[slider.value]
 }
 function updateBackground() {
