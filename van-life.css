@@ -17,6 +17,7 @@ h3 > a{
     font-size: 1.4rem;
     background:black;  
     border: solid salmon .4em;
+    min-height: 30rem;
 }
 .life>h2{
     color: white;
