@@ -14,12 +14,12 @@ function getDay() { //getting days
 
 function updateDay () {
     if (slider.value == 0)  {
-        myDay.innerHTML = "Work from a Hotel lobby before you check in";
+        myDay.innerHTML = "Work from a Hotel lobby before you check in!";
     }
     else if (slider.value > 0 && slider.value < 4) {
-        myDay.innerHTML = "You're staying in a hotel, you can work from your room"
+        myDay.innerHTML = "You're staying in a hotel, you can work from your room!"
     } else if ( slider.value == 4) {
-        myDay.innerHTML = "Work from a Hotel lobby afetr you check out";
+        myDay.innerHTML = "Work from a Hotel lobby afetr you check out!";
     }
      else  myDay.innerHTML = "It's Van time!"
 }
